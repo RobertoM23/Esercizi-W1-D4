@@ -1,8 +1,8 @@
 package Esercizi;
 
 public class DipendentePartTime extends Dipendente {
-    private int oreLavorate;
-    private double pagaOraria;
+    private final int oreLavorate;
+    private final double pagaOraria;
 
     public DipendentePartTime(String matricola, double stipendioBase, String dipartimento, int ore, double paga) {
         super(matricola, stipendioBase, dipartimento);

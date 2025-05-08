@@ -17,8 +17,7 @@ public class Main {
 
         double totale = 0;
         for (CheckIn p : persone) {
-            if (p instanceof Dipendente) {
-                Dipendente dip = (Dipendente) p;
+            if (p instanceof Dipendente dip) {
                 totale += dip.calculateSalary();
                 System.out.println("Matricola: " + dip.getMatricola() + " - Salario: " + dip.calculateSalary());
             }
